@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+
+    font-family: "Old Standard TT", serif;
+}
+/* 
+body{
+    background-image:linear-gradient( #5a5656);
+    background-repeat: no-repeat;
+} */
+/* Start Nav Bar */
+
+#nav-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+
+
+}
+
+#nav-content a{
+    color:white;
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#nav-content input{
+    background:#055a65dd;
+    border:solid 1px #bcf7fedd;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#nav-content input::placeholder{
+    color:white;
+    font-size: 18px;
+    
+}
+#nav-content button{
+    font-size: 20px;
+    color:rgb(175, 192, 189);
+    border-radius: 10px;
+}
+/* End Nav Bar */
+#main-content img{
+    border-radius: 10px;
+    border:solid 1px white;
+}
+
+
+#main-content h4{
+   font-size: 19px;
+   margin-left:50px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   
+}
+#main-content h2{
+    font-size: 3rem;
+    margin-left:50px;
+    color:white;
+    font-weight: 700;
+}
+#main-content p{
+    font-size: 18px;
+    margin-left:50px;
+    color:white
+}
+#main-content h3{
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+
+/* Start Main Section */
+
+
+/* Start About  */
+#about-content{
+    height:300px;
+    background-color:white;
+    margin:40px;
+    padding: 20px;
+    border-radius:30px ;
+}
+#about-content .para-content{
+    font-size: 22px;
+    font-weight: 900;
+    padding: 10px;
+    
+}
+
+#about-content img{
+    border:none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#about-content h3{
+        
+    margin:5px;
+    font-weight: 700;
+
+}
+#about-content span{
+    color:red;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* End About  */
+
+/* Start History */
+#Our-History{
+    height:550px;
+    background-color:#31707cdd;;
+    border-radius: 40px;
+    margin:50px;
+
+    
+
+}
+#Our-History img{
+    border-radius: 20px;
+    margin-top:20px
+}
+
+#Our-History h3{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 900;
+    padding:20px;
+
+}
+
+#Our-History p{
+    font-size: 22px;
+    color:#fff;
+    font-weight: 800;
+    margin-top:30px;
+}
+
+/* End History */
+
+/* Start Servicies */
+#Ser-content .card{
+    border-radius: 15px;
+}
+#Ser-content h5{
+    font-size: 33px;
+    text-align: center;
+    color:#000;
+    font-weight: 700;
+}
+#Ser-conten p{
+    font-size: 25px;
+    font-weight: 800;
+}
+#Ser-content a{
+   font-size: 20px;
+}
+/* EndServicies */
+
+
+/* Start contact */
+#contact .card{
+    background-image: url(../images/s15.jpg);
+    border-radius: 20px;
+
+}
+#contact form{
+     width: 100%;
+}
+#contact form input{
+    width:100%;
+}
+#contact h2{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    margin:30px;
+}
+#contact label{
+    font-size: 23px;
+    color:#fff;
+}
+#contact ::placeholder{
+    font-size: 19px;
+}
+#contact button{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+#contact hr{
+    height:1px;
+    background:white;
+    
+}
+
+
+#contact .btn-link{
+    font-size: 30px;
+    background-color:rgb(56, 135, 56);
+    width:300px;
+    margin:auto;
+    color:white;
+    padding:15px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 16px;
+    margin-top:20px
+
+}
+
+
+
+
+
+/* Endcontact */
